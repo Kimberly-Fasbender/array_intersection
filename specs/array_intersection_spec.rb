@@ -1,6 +1,7 @@
-require 'minitest/autorun'
-require 'minitest/reporters'
-require_relative '../lib/array_intersection'
+require "minitest/autorun"
+require "minitest/reporters"
+require_relative "../lib/array_intersection"
+require "minitest/pride"
 
 describe "array intersection" do
   describe "basic tests" do
